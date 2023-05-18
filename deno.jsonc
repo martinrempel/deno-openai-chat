@@ -1,5 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch mod.ts",
+    "example": "deno run --allow-net=api.openai.com --allow-env=OPENAI_API_KEY examples/_run.ts"
   }
 }
