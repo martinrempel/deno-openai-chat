@@ -1,0 +1,7 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/std@0.188.0/http/http_errors.ts": "b9a18ef97d6c5966964de95e04d1f9f88a0f8bd8577c26fd402d9d632fb03a42",
+    "https://deno.land/std@0.188.0/http/http_status.ts": "8a7bcfe3ac025199ad804075385e57f63d055b2aed539d943ccc277616d6f932"
+  }
+}
