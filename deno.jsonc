@@ -1,6 +1,9 @@
 {
   "tasks": {
-    "dev": "deno run --watch mod.ts",
-    "example": "deno run --allow-net=api.openai.com --allow-env=OPENAI_API_KEY examples/_run.ts"
+    "example-single": "deno run --allow-net=api.openai.com --allow-env=OPENAI_API_KEY examples/_single_sentence.ts",
+    "example-single-raw": "deno run --allow-net=api.openai.com --allow-env=OPENAI_API_KEY examples/_single_sentence_raw.ts",
+    "example-single-system": "deno run --allow-net=api.openai.com --allow-env=OPENAI_API_KEY examples/_single_sentence_system.ts",
+    "example-single-stream": "deno run --allow-net=api.openai.com --allow-env=OPENAI_API_KEY examples/_single_sentence_stream.ts",
+    "example-two-choices": "deno run --allow-net=api.openai.com --allow-env=OPENAI_API_KEY examples/_two_choices.ts"
   }
 }
