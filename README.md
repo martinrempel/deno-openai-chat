@@ -90,7 +90,7 @@ while (true) {
     const trimmed = line.trim();
 
     // streams are terminated by a "data: [DONE]" message, which we don't want to print
-    if (!trimmed || trimmed.includes("data: [DONE]")) {
+    if (!trimmed || trimmed === "data: [DONE]") {
       continue;
     }
 
