@@ -34,8 +34,9 @@ while (true) {
 
   for (const line of lines) {
     const trimmed = line.trim();
-    // Skip empty lines and lines that contain "[DONE]".
-    if (!trimmed || trimmed.includes("[DONE]")) {
+
+    // streams are terminated by a "data: [DONE]" message, which we don't want to print
+    if (!trimmed || trimmed.includes("data: [DONE]")) {
       continue;
     }
 
