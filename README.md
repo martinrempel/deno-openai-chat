@@ -28,7 +28,7 @@ const messages: Message[] = [
   },
 ];
 
-const completion = await new chat.complete({
+const completion = await chat.complete({
   model,
   messages,
 });
@@ -67,7 +67,7 @@ const messages: Message[] = [
   },
 ];
 
-const completionStream = await new chat.completeAsStream({
+const completionStream = await chat.completeAsStream({
   model,
   messages,
   stream: true,
